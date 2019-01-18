@@ -1,0 +1,13 @@
+.formularioRegistro
+{  
+    margin: auto;
+    width: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-top:2%;
+    border-radius: 22px 2px 22px 2px;
+}
+.btnVoltar
+{
+    float:right;
+}

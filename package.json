@@ -1,0 +1,17 @@
+{
+  "name": "agenda_de_contatos",
+  "version": "1.0.0",
+  "description": "Agenda de contatos desenvolvida em Javascript com MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angelo Xavier",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
