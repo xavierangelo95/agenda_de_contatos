@@ -26,59 +26,59 @@
 
     <div class="container">
 
-        <div class="row">
+        <form action="/registrarContato" method="post">
+            <div class="row camposcadastro">
+                <div class="col-3">
+                    <label>Nome:</label>
+                    <input type="text" class="form-control" name="nome" />
 
-            <div class="col-3">
-                <label>Nome:</label>
-                <input type="text" class="form-control nome" />
+                    <label>Telefone:</label>
+                    <input type="text" class="form-control" name="telefone" />
 
-                <label>Telefone:</label>
-                <input type="text" class="form-control telefone" />
+                    <label>Email:</label>
+                    <input type="text" class="form-control" name="email" />
+
+                    <label>WhatsApp? </label>
+                    <input type="checkbox" class="whatsapp" name="whatsapp" />
+
+                    <button type="submit" class="btn btn-primary form-control">Salvar</button>
+                </div>
             </div>
-
-            <div class="col-2">
-                <img src="/img/perfil.png" alt="Perfil" height="120" width="120">
-            </div>
-
-            <div class="col-3">
-                <input type="file" class="custom-file-input" id="inputGroupFile01">
-                <label class="custom-file-label" for="inputGroupFile01">Escolher uma foto</label>
-            </div>
-
-
-
-        </div>
-
+        </form>
 
 
         <div class="row">
-            <table class="table table-striped">
+            <table class="table table-striped col-8">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Editar</th>
+                        <th scope="col">Excluir</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>José</td>
+                        <td>(11) 96545-2341</td>
+                        <td>josesilva@hotmail.com</td>
+                        <td><a href="#"><img src="/img/editar.png" width="25" height="25"></a></td>
+                        <td><a href="#"><img src="/img/excluir.png" width="25" height="25"></a></td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>Maria</td>
+                        <td>(31) 96652-2345</td>
+                        <td>mmaaria@uol.com.br</td>
+                        <td><a href="#"><img src="/img/editar.png" width="25" height="25"></a></td>
+                        <td><a href="#"><img src="/img/excluir.png" width="25" height="25"></a></td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>Antonio</td>
+                        <td>(13) 97645-2341</td>
+                        <td>tonyuo@terra.com.br</td>
+                        <td><a href="#"><img src="/img/editar.png" width="25" height="25"></a></td>
+                        <td><a href="#"><img src="/img/excluir.png" width="25" height="25"></a></td>
                     </tr>
                 </tbody>
             </table>
