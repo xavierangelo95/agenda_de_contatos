@@ -8,8 +8,8 @@ module.exports = function (app){
         res.render('agenda')
     });
 
-    app.get('/recuperaSenha', function (req, res) {
-        res.render('recuperarSenha')
+    app.get('/recuperaUsuario', function (req, res) {
+        res.render('recuperaUsuario')
     });
 
 
